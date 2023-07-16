@@ -57,6 +57,28 @@ nav li{
     margin-top: 20px;
 }
 
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+/* teams style.. */
+.teams-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+.teams-content{
+    padding-right: 25px;
+    padding-left: 70px;
+}
+
 
 
 /* responsive styles */
